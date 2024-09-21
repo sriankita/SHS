@@ -1,0 +1,318 @@
+#main{
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+}
+
+#toolbar {
+    background-color: #012749;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    margin-left: 2%;
+}
+
+.register {
+    margin-right: 4%;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#toolbar2 {
+    color: #606060;
+    font-size: 15px;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#toolbar3 {
+    background-color: #012749;
+    color: #FFFFFF;
+    padding: 8px;
+}
+
+#section1 {
+   
+   /* background-image: url();
+    background-position: center center;
+    background-size: cover;*/
+    text-align: left;
+    padding-left: 50px;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(-90deg, rgba(126, 44, 44, 0.53) 10%, rgba(255, 255, 255, 0.65) 65%), url("https://shikshahisamadhan.com/wp-content/uploads/2024/06/hero_area_image.png") center center / cover no-repeat;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.info h1 {
+    font-size: 56px;
+    line-height: 62px;
+    font-weight: 600;
+    color:#012749;
+}
+.info h3 {
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #FF0000;
+}
+.info p {
+    color: #333333;
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 400;
+}
+.info button{
+    background-color: #FFB606;
+    color: black;
+    width: 30%;
+    padding: 10px 30px;
+}
+
+#section2 {
+    text-align: left;
+    padding: 40px 50px 0px 50px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f52828;
+ 
+}
+
+.cta-info{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+  }
+  .cta-btn{
+    align-items: end;
+  }
+  .cta-btn button{
+ background-color: white;
+ color:#000000;
+ font-size: 15px;
+ font-weight: 600;
+ padding: 10px 30px;
+ 
+
+  }
+  
+  .section3 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    
+}
+
+  .icon-section {
+        padding: 20px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-top: -50px;
+   background-color: white;    
+  }
+  
+  .icon-box {
+    text-align: center;
+    flex: 1; /* Each icon box takes up equal space */
+    margin: 0 10px; /* Adjust spacing between boxes */
+  }
+  
+  .icon-image {
+        margin-bottom: 15px; 
+        width: 128px;
+        height: auto;
+  }
+  
+  .icon-heading {
+    font-size: 1.5em; /* Adjust as needed */
+    margin-bottom: 10px; /* Space between heading and description */
+    color: #012749;
+  }
+  
+  .icon-description {
+    font-size: 1em; /* Adjust as needed */
+    color: #333333; /* Adjust text color as needed */
+    font-weight: 600;
+  }
+
+  .section4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(270deg, #f52828 48%, #012749 42%),  center center / cover no-repeat;
+    color: #fff; /* White text color */
+    padding: 50px;
+  }
+  
+  .section4-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: left;
+    align-items: start;
+    width: 45%;
+    text-align: left;
+  
+  }
+  
+  .section4-content h1 {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 62px;
+    
+  }
+  
+  .section4-content p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+ 
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e02424; /* Red background */
+    color: #fff; /* White text */
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+  }
+  
+  .section4-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 55%;
+  }
+  
+  .card-section1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .card {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px; /* Adjust as needed */
+  }
+  
+  .card-icon {
+    width: 60px; /* Adjust size as needed */
+    height: 60px; /* Adjust size as needed */
+    margin-bottom: 10px;
+    padding: 10px;
+    align-items: center;
+    background-color: #FCA1A1;
+    fill: red;
+    color: red;
+    border-radius: 50%;
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    color: #666; /* Grey text for description */
+  }
+  .section5{
+    background-color: #f3f3f3;
+    padding:80px 40px 80px 40px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+  }
+
+  .section5-highlights{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+
+  }
+  .highlight-card{
+    background-color: #fff; /* White background */
+    color: #000; /* Black text color */
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px; 
+
+  }
+  .section5-highlights img{
+    margin-bottom: 20px;
+  }
+  
+  .section5-highlights h3{
+    color: #012749;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 15px;
+  }
+  .section5-highlights p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+  .section6{
+    
+    height: 400px;
+    color: white;
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    gap :15px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../../public/Images/sld67.jpg") center center / cover no-repeat;
+  }
+  .section6 h1{
+    font-size:  56px ;
+    font-weight: 600;
+    line-height: 62px;
+  }
+  .section6 button{
+    
+    padding: 15px 33px;
+    font-size: 15px ;
+    font-weight: 500;text-transform: uppercase;
+    background-color: #FFB606;
+  }
