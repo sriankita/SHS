@@ -1,0 +1,124 @@
+/* quizapp.css */
+
+/* Main quiz container */
+.quizapp {
+    width: 80%;
+    margin: 20px auto; /* margin from top and bottom */
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the quiz title */
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for each question */
+  h3 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: left; /* Left align question */
+  }
+  
+  /* Style for the options container */
+  label {
+    display: block;
+    margin: 8px 0;
+    font-size: 1.2rem;
+    text-align: left; /* Left align options */
+    cursor: pointer;
+  }
+
+  .options{
+    text-align: left;
+  }
+  
+  /* Style for radio buttons */
+  input[type="radio"] {
+    margin-right: 10px;
+    align-items: left;
+  }
+  
+  /* Inline button styles for "Previous" and "Next" */
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 20px 5px; /* Margins around buttons */
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Button container to align "Previous" and "Next" inline */
+  .button-container {
+    text-align: center;
+  }
+  
+  button.prev {
+    background-color: #2196F3; /* Blue button for "Previous" */
+  }
+  
+  button.prev:hover {
+    background-color: #1E88E5;
+  }
+  
+  button.next {
+    background-color: #4CAF50; /* Green button for "Next" */
+  }
+  
+  button.next:hover {
+    background-color: #45a049;
+  }
+  
+  /* Quiz Report styling */
+  h2 {
+    text-align: left;
+    color: #333;
+    margin-top: 30px;
+    font-size: 1.8rem;
+  }
+  
+  p {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    div {
+      width: 90%;
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    h3 {
+      font-size: 1.3rem;
+    }
+  
+    label {
+      font-size: 1.1rem;
+    }
+  
+    button {
+      font-size: 0.9rem;
+      padding: 8px 15px;
+    }
+  }
+  
